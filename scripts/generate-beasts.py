@@ -103,7 +103,9 @@ def main() -> None:
     BEASTS.mkdir(exist_ok=True)
 
     for beast in beasts:
-        name, title = beast["name"], beast["title"]
+        name, title, slug = beast["name"], beast["title"], beast.get("slug")
+        if not slug:
+            raise SystemExit(f"beast {name!r} missing 'slug'; run build_manifest_slugs.py first")
         jobs: list[tuple[str, str, str]] = []
         if args.form in ("small", "both"):
             jobs.append(("small", sizes["small"], SMALL_PROMPT.format(name=name, title=title)))
@@ -111,7 +113,7 @@ def main() -> None:
             jobs.append(("large", sizes["large"], LARGE_PROMPT.format(name=name, title=title)))
 
         for form, size, prompt in jobs:
-            out = BEASTS / f"{name}-{form}.jpg"
+            out = BEASTS / f"{slug}-{form}.jpg"
             if out.exists() and not args.force:
                 print(f"skip {out.name}")
                 continue

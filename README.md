@@ -4,26 +4,31 @@
 
 ## CDN 地址
 
-```
-https://cdn.jsdelivr.net/gh/rose-and-code/html-rebuttal-assets@main/beasts/{神兽名}-small.jpg
-https://cdn.jsdelivr.net/gh/rose-and-code/html-rebuttal-assets@main/beasts/{神兽名}-large.jpg
-```
-
-示例（九尾狐）：
+图片文件名统一用英文 slug（拼音），避免中文路径的编码/兼容问题：
 
 ```
-https://cdn.jsdelivr.net/gh/rose-and-code/html-rebuttal-assets@main/beasts/九尾狐-small.jpg
-https://cdn.jsdelivr.net/gh/rose-and-code/html-rebuttal-assets@main/beasts/九尾狐-large.jpg
+https://cdn.jsdelivr.net/gh/rose-and-code/html-rebuttal-assets@main/beasts/{slug}-small.jpg
+https://cdn.jsdelivr.net/gh/rose-and-code/html-rebuttal-assets@main/beasts/{slug}-large.jpg
 ```
+
+示例（九尾狐 → slug: `jiu-wei-hu`）：
+
+```
+https://cdn.jsdelivr.net/gh/rose-and-code/html-rebuttal-assets@main/beasts/jiu-wei-hu-small.jpg
+https://cdn.jsdelivr.net/gh/rose-and-code/html-rebuttal-assets@main/beasts/jiu-wei-hu-large.jpg
+```
+
+`manifest.json` 里每只神兽都带 `slug` 字段；HTML 端维护一份「中文名 → slug」映射表（`BEAST_SLUG`）来拼接 URL。
 
 push 到 GitHub 后，jsDelivr 通常几分钟内生效。
 
 ## 目录
 
 ```
-beasts/           49×2 张 JPEG（{name}-small.jpg / {name}-large.jpg）
-manifest.json     49 只神兽清单与 CDN 配置
-scripts/generate-beasts.py   批量生图脚本（自动压缩为 JPEG）
+beasts/           49×2 张 JPEG（{slug}-small.jpg / {slug}-large.jpg，英文文件名）
+manifest.json     49 只神兽清单（name/title/tag/slug）与 CDN 配置
+scripts/generate-beasts.py        批量生图脚本（按 slug 命名文件，自动压缩为 JPEG）
+scripts/build_manifest_slugs.py   为 manifest.json 补充/重建 slug 字段
 ```
 
 ## 规格

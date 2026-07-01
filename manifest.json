@@ -7,254 +7,303 @@
   },
   "format": "jpg",
   "naming": {
-    "small": "{name}-small.jpg",
-    "large": "{name}-large.jpg"
+    "small": "{slug}-small.jpg",
+    "large": "{slug}-large.jpg"
   },
   "beasts": [
     {
       "name": "鹿白蜀",
       "title": "旺家纳福",
-      "tag": "zhen"
+      "tag": "zhen",
+      "slug": "lu-bai-shu"
     },
     {
       "name": "玄甲渡",
       "title": "负重济川",
-      "tag": "zhen"
+      "tag": "zhen",
+      "slug": "xuan-jia-du"
     },
     {
       "name": "珠泪哀歌",
       "title": "含悲成海",
-      "tag": "yuan"
+      "tag": "yuan",
+      "slug": "zhu-lei-ai-ge"
     },
     {
       "name": "承平鸾",
       "title": "鸣即安宁",
-      "tag": "ling"
+      "tag": "ling",
+      "slug": "cheng-ping-luan"
     },
     {
       "name": "青羽",
       "title": "传书寄音",
-      "tag": "xiang"
+      "tag": "xiang",
+      "slug": "qing-yu"
     },
     {
       "name": "文鳐",
       "title": "夜放流光",
-      "tag": "xiang"
+      "tag": "xiang",
+      "slug": "wen-yao"
     },
     {
       "name": "乘雾银鳞",
       "title": "驾云离泥",
-      "tag": "xiang"
+      "tag": "xiang",
+      "slug": "cheng-wu-yin-lin"
     },
     {
       "name": "朱千岁",
       "title": "延寿酬安",
-      "tag": "zhen"
+      "tag": "zhen",
+      "slug": "zhu-qian-sui"
     },
     {
       "name": "不害",
       "title": "敛齿怀仁",
-      "tag": "yuan"
+      "tag": "yuan",
+      "slug": "bu-hai"
     },
     {
       "name": "丰年",
       "title": "岁稔登祥",
-      "tag": "zhen"
+      "tag": "zhen",
+      "slug": "feng-nian"
     },
     {
       "name": "精卫",
       "title": "移山填海",
-      "tag": "yuan"
+      "tag": "yuan",
+      "slug": "jing-wei"
     },
     {
       "name": "冉遗鱼",
       "title": "代尝噩梦",
-      "tag": "yuan"
+      "tag": "yuan",
+      "slug": "ran-yi-yu"
     },
     {
       "name": "天马",
       "title": "见君方驻",
-      "tag": "xiang"
+      "tag": "xiang",
+      "slug": "tian-ma"
     },
     {
       "name": "祥落",
       "title": "栖处生瑞",
-      "tag": "zhen"
+      "tag": "zhen",
+      "slug": "xiang-luo"
     },
     {
       "name": "当扈",
       "title": "拙翅赴约",
-      "tag": "yuan"
+      "tag": "yuan",
+      "slug": "dang-hu"
     },
     {
       "name": "壤开途",
       "title": "掘土辟道",
-      "tag": "zhen"
+      "tag": "zhen",
+      "slug": "rang-kai-tu"
     },
     {
       "name": "角端",
       "title": "日行万里",
-      "tag": "xiang"
+      "tag": "xiang",
+      "slug": "jiao-duan"
     },
     {
       "name": "青鸾",
       "title": "衔花报喜",
-      "tag": "yuan"
+      "tag": "yuan",
+      "slug": "qing-luan"
     },
     {
       "name": "灵鹿",
       "title": "含芝疗伤",
-      "tag": "yuan"
+      "tag": "yuan",
+      "slug": "ling-lu"
     },
     {
       "name": "鲲",
       "title": "潜渊载梦",
-      "tag": "xiang"
+      "tag": "xiang",
+      "slug": "kun"
     },
     {
       "name": "九尾狐",
       "title": "千载解忧",
-      "tag": "yuan"
+      "tag": "yuan",
+      "slug": "jiu-wei-hu"
     },
     {
       "name": "独足",
       "title": "孤身擎灯",
-      "tag": "zhen"
+      "tag": "zhen",
+      "slug": "du-zu"
     },
     {
       "name": "白泽",
       "title": "无所不知",
-      "tag": "ling"
+      "tag": "ling",
+      "slug": "bai-ze"
     },
     {
       "name": "英招",
       "title": "绕霄巡夜",
-      "tag": "xiang"
+      "tag": "xiang",
+      "slug": "ying-zhao"
     },
     {
       "name": "司天人",
       "title": "留阙待归",
-      "tag": "zhen"
+      "tag": "zhen",
+      "slug": "si-tian-ren"
     },
     {
       "name": "赤五尾",
       "title": "荡平诸难",
-      "tag": "zhen"
+      "tag": "zhen",
+      "slug": "chi-wu-wei"
     },
     {
       "name": "食虎",
       "title": "慑兽承欢",
-      "tag": "zhen"
+      "tag": "zhen",
+      "slug": "shi-hu"
     },
     {
       "name": "蛊雕",
       "title": "拟啼唤归",
-      "tag": "yuan"
+      "tag": "yuan",
+      "slug": "gu-diao"
     },
     {
       "name": "唤水人蛇",
       "title": "呼风布雨",
-      "tag": "ling"
+      "tag": "ling",
+      "slug": "huan-shui-ren-she"
     },
     {
       "name": "天狗",
       "title": "御凶守门",
-      "tag": "zhen"
+      "tag": "zhen",
+      "slug": "tian-gou"
     },
     {
       "name": "归山狐",
       "title": "行远必返",
-      "tag": "yuan"
+      "tag": "yuan",
+      "slug": "gui-shan-hu"
     },
     {
       "name": "重明鸟",
       "title": "双瞳辟邪",
-      "tag": "ling"
+      "tag": "ling",
+      "slug": "chong-ming-niao"
     },
     {
       "name": "鹿之白",
       "title": "择德而栖",
-      "tag": "yuan"
+      "tag": "yuan",
+      "slug": "lu-zhi-bai"
     },
     {
       "name": "独角断",
       "title": "触邪明判",
-      "tag": "zhen"
+      "tag": "zhen",
+      "slug": "du-jiao-duan"
     },
     {
       "name": "同风起",
       "title": "万里相随",
-      "tag": "xiang"
+      "tag": "xiang",
+      "slug": "tong-feng-qi"
     },
     {
       "name": "桃花一处",
       "title": "唤回春信",
-      "tag": "ling"
+      "tag": "ling",
+      "slug": "tao-hua-yi-chu"
     },
     {
       "name": "螭",
       "title": "未角先护",
-      "tag": "zhen"
+      "tag": "zhen",
+      "slug": "chi-long"
     },
     {
       "name": "天禄",
       "title": "纳财辟邪",
-      "tag": "zhen"
+      "tag": "zhen",
+      "slug": "tian-lu"
     },
     {
       "name": "朱雀玄奇",
       "title": "浴火不熄",
-      "tag": "xiang"
+      "tag": "xiang",
+      "slug": "zhu-que-xuan-qi"
     },
     {
       "name": "九凤",
       "title": "众首寻踪",
-      "tag": "ling"
+      "tag": "ling",
+      "slug": "jiu-feng"
     },
     {
       "name": "应许龙",
       "title": "翻江布泽",
-      "tag": "ling"
+      "tag": "ling",
+      "slug": "ying-xu-long"
     },
     {
       "name": "凤衔",
       "title": "现世升平",
-      "tag": "xiang"
+      "tag": "xiang",
+      "slug": "feng-xian"
     },
     {
       "name": "麒麟心",
       "title": "仁善不伤",
-      "tag": "yuan"
+      "tag": "yuan",
+      "slug": "qi-lin-xin"
     },
     {
       "name": "无富奇",
       "title": "慑威折节",
-      "tag": "zhen"
+      "tag": "zhen",
+      "slug": "wu-fu-qi"
     },
     {
       "name": "号虎",
       "title": "吞尽厄难",
-      "tag": "zhen"
+      "tag": "zhen",
+      "slug": "hao-hu"
     },
     {
       "name": "开明兽",
       "title": "九面镇守",
-      "tag": "ling"
+      "tag": "ling",
+      "slug": "kai-ming-shou"
     },
     {
       "name": "九烛",
       "title": "司掌昼夜",
-      "tag": "ling"
+      "tag": "ling",
+      "slug": "jiu-zhu"
     },
     {
       "name": "帝江",
       "title": "鸿蒙初开",
-      "tag": "ling"
+      "tag": "ling",
+      "slug": "di-jiang"
     },
     {
       "name": "红玉",
       "title": "自助天助",
-      "tag": "yuan"
+      "tag": "yuan",
+      "slug": "hong-yu"
     }
   ]
 }
