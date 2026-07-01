@@ -55,6 +55,9 @@ def api_key() -> str:
     return key
 
 
+MAX_ATTEMPTS = 8
+
+
 def generate(prompt: str, size: str, key: str) -> bytes:
     payload = json.dumps(
         {"model": "gpt-image-2", "prompt": prompt, "n": 1, "size": size},
@@ -66,7 +69,7 @@ def generate(prompt: str, size: str, key: str) -> bytes:
         headers={"Content-Type": "application/json", "Authorization": f"Bearer {key}"},
         method="POST",
     )
-    for attempt in range(3):
+    for attempt in range(MAX_ATTEMPTS):
         try:
             with urllib.request.urlopen(req, timeout=180) as resp:
                 data = json.loads(resp.read().decode())
@@ -77,11 +80,18 @@ def generate(prompt: str, size: str, key: str) -> bytes:
                 return base64.b64decode(item["b64_json"])
             with urllib.request.urlopen(item["url"], timeout=60) as img:
                 return img.read()
-        except (urllib.error.URLError, TimeoutError, RuntimeError) as err:
-            if attempt == 2:
+        except urllib.error.HTTPError as err:
+            if attempt == MAX_ATTEMPTS - 1:
                 raise
-            print(f"  retry {attempt + 1}: {err}")
-            time.sleep(4)
+            wait = 30 * (attempt + 1) if err.code == 429 else 5 * (attempt + 1)
+            print(f"  HTTP {err.code}, retry {attempt + 1}/{MAX_ATTEMPTS} in {wait}s")
+            time.sleep(wait)
+        except (urllib.error.URLError, TimeoutError, RuntimeError) as err:
+            if attempt == MAX_ATTEMPTS - 1:
+                raise
+            wait = 5 * (attempt + 1)
+            print(f"  retry {attempt + 1}/{MAX_ATTEMPTS} in {wait}s: {err}")
+            time.sleep(wait)
     raise RuntimeError("unreachable")
 
 
@@ -90,6 +100,7 @@ def main() -> None:
     parser.add_argument("--only", help="comma-separated beast names")
     parser.add_argument("--form", choices=("small", "large", "both"), default="both")
     parser.add_argument("--force", action="store_true")
+    parser.add_argument("--delay", type=float, default=30.0, help="seconds to sleep between requests (rate-limit friendly)")
     args = parser.parse_args()
 
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
@@ -123,6 +134,7 @@ def main() -> None:
             jpeg_bytes = compress_to_jpeg(raw, cfg["max_size"], cfg["quality"])
             out.write_bytes(jpeg_bytes)
             print(f"  -> {out.stat().st_size} bytes (raw {len(raw)} bytes)")
+            time.sleep(args.delay)
 
     print("done")
 
