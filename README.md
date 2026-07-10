@@ -87,3 +87,22 @@ CDN 引用示例：
 https://cdn.jsdelivr.net/gh/rose-and-code/html-rebuttal-assets@main/models/mv/mv-01.glb
 https://cdn.jsdelivr.net/gh/rose-and-code/html-rebuttal-assets@main/models/gothic/tower_001.glb
 ```
+
+## 3D 模型（models/）
+
+Echo Spire 项目的 GLB 素材库（meshopt 压缩，Three.js 加载时需配 `MeshoptDecoder`）：
+
+```
+models/mv/        10 个纪念碑谷风格雕塑建筑
+models/gothic/    62 个哥特教堂零件（塔/大厅/墙/尖顶/拱门…）
+models/dkf/       110 个 Dark Fantasy 零件（大中小建筑/塔/雕像/门窗…）
+models/scenes/    4 个整体场景（hogwarts / elven-city / island-1 / island-2）
+models/manifest.json  各套件零件清单
+```
+
+CDN 引用示例：
+
+```
+https://cdn.jsdelivr.net/gh/rose-and-code/html-rebuttal-assets@main/models/mv/mv-01.glb
+https://cdn.jsdelivr.net/gh/rose-and-code/html-rebuttal-assets@main/models/gothic/tower_001.glb
+```
