@@ -88,3 +88,7 @@ CDN 引用示例：
 https://cdn.jsdelivr.net/gh/rose-and-code/html-rebuttal-assets@main/models/mv/mv-01.glb
 https://cdn.jsdelivr.net/gh/rose-and-code/html-rebuttal-assets@main/models/gothic/tower_001.glb
 ```
+
+## playfulbook
+
+[playfulbook/](playfulbook/) contains compressed images, audio and video for the interactive book project. See its README and manifest for sizes, checksums and pinned CDN URLs.
