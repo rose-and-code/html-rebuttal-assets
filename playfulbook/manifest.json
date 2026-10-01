@@ -9,7 +9,7 @@
     "audioMaxKbps": 128
   },
   "sourceBytes": 3183476300,
-  "bytes": 660801307,
+  "bytes": 724628901,
   "files": [
     {
       "path": "assets/style-samples/sample1.jpeg",
@@ -18063,6 +18063,1440 @@
       ],
       "bytes": 479363,
       "sha256": "ee945fa036d4b50c68c4c2fafcc68d43d5356a830d928cfd3640ae592719e801"
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/arcadia.mp3",
+      "sourceBytes": 1291489,
+      "sourceSha256": "fadbd7b51a8167692b605d90a9b240e791f61cd34beec7fe68ba68df114a5694",
+      "originalMedia": {
+        "duration": 97.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          },
+          {
+            "codec_type": "video",
+            "codec_name": "png",
+            "channels": null,
+            "sample_rate": null,
+            "r_frame_rate": "90000/1"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1291489,
+      "sha256": "fadbd7b51a8167692b605d90a9b240e791f61cd34beec7fe68ba68df114a5694",
+      "media": {
+        "duration": 97.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          },
+          {
+            "codec_type": "video",
+            "codec_name": "png",
+            "channels": null,
+            "sample_rate": null,
+            "r_frame_rate": "90000/1"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/bathed-in-the-light.mp3",
+      "sourceBytes": 2032249,
+      "sourceSha256": "69b917fbbc8b8fb5c1903d832798a10ab834642c16b8f0d43e71ed4b5bb46aa5",
+      "originalMedia": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          },
+          {
+            "codec_type": "video",
+            "codec_name": "png",
+            "channels": null,
+            "sample_rate": null,
+            "r_frame_rate": "90000/1"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 2032249,
+      "sha256": "69b917fbbc8b8fb5c1903d832798a10ab834642c16b8f0d43e71ed4b5bb46aa5",
+      "media": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          },
+          {
+            "codec_type": "video",
+            "codec_name": "png",
+            "channels": null,
+            "sample_rate": null,
+            "r_frame_rate": "90000/1"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/carefree.mp3",
+      "sourceBytes": 1801409,
+      "sourceSha256": "2cc98bbf6220d9c2ff90da2ffa5232a14dae743baa79db7d0d88a2cfb3b51e01",
+      "originalMedia": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1801409,
+      "sha256": "2cc98bbf6220d9c2ff90da2ffa5232a14dae743baa79db7d0d88a2cfb3b51e01",
+      "media": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/clean-soul.mp3",
+      "sourceBytes": 1801361,
+      "sourceSha256": "e3e4988166ea3df5ecc947e841123cbd2a5a361cee2739d0d74f355f31cac086",
+      "originalMedia": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1801361,
+      "sha256": "e3e4988166ea3df5ecc947e841123cbd2a5a361cee2739d0d74f355f31cac086",
+      "media": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/cold-funk.mp3",
+      "sourceBytes": 2040370,
+      "sourceSha256": "4fbc7349faef1130243d7e27e27fe4ef6fcd294b95f572bd643ef9ba11812e23",
+      "originalMedia": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          },
+          {
+            "codec_type": "video",
+            "codec_name": "png",
+            "channels": null,
+            "sample_rate": null,
+            "r_frame_rate": "90000/1"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 2040370,
+      "sha256": "4fbc7349faef1130243d7e27e27fe4ef6fcd294b95f572bd643ef9ba11812e23",
+      "media": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          },
+          {
+            "codec_type": "video",
+            "codec_name": "png",
+            "channels": null,
+            "sample_rate": null,
+            "r_frame_rate": "90000/1"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/covert-affair.mp3",
+      "sourceBytes": 1801374,
+      "sourceSha256": "45654048adc651af3753e21ab3364156c57b999b869085dbdc9862c04dfc2348",
+      "originalMedia": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1801374,
+      "sha256": "45654048adc651af3753e21ab3364156c57b999b869085dbdc9862c04dfc2348",
+      "media": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/desert-city.mp3",
+      "sourceBytes": 1308902,
+      "sourceSha256": "8adcdd9d9b62a79ec437ada1ee5750a6347a2064e0fc7c0c062a581740e1c2c6",
+      "originalMedia": {
+        "duration": 89.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          },
+          {
+            "codec_type": "video",
+            "codec_name": "png",
+            "channels": null,
+            "sample_rate": null,
+            "r_frame_rate": "90000/1"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1308902,
+      "sha256": "8adcdd9d9b62a79ec437ada1ee5750a6347a2064e0fc7c0c062a581740e1c2c6",
+      "media": {
+        "duration": 89.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          },
+          {
+            "codec_type": "video",
+            "codec_name": "png",
+            "channels": null,
+            "sample_rate": null,
+            "r_frame_rate": "90000/1"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/dewdrop-fantasy.mp3",
+      "sourceBytes": 1801396,
+      "sourceSha256": "bbe5553c0ca0b6ff860f1c27984d60759d5c7dfb7b5eb1dbae5110939cfb3133",
+      "originalMedia": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1801396,
+      "sha256": "bbe5553c0ca0b6ff860f1c27984d60759d5c7dfb7b5eb1dbae5110939cfb3133",
+      "media": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/easy-lemon.mp3",
+      "sourceBytes": 1513277,
+      "sourceSha256": "c80920c88ebe70f10fbfbb8f70636aa38c66da37ae20222707e108cf49829b35",
+      "originalMedia": {
+        "duration": 126.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1513277,
+      "sha256": "c80920c88ebe70f10fbfbb8f70636aa38c66da37ae20222707e108cf49829b35",
+      "media": {
+        "duration": 126.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/enchanted-valley.mp3",
+      "sourceBytes": 1801384,
+      "sourceSha256": "7ca6bdb53502de47458124c897a5743ca9405cf9d222bceb9843f1fd2d07bd72",
+      "originalMedia": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1801384,
+      "sha256": "7ca6bdb53502de47458124c897a5743ca9405cf9d222bceb9843f1fd2d07bd72",
+      "media": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/five-armies.mp3",
+      "sourceBytes": 1801383,
+      "sourceSha256": "0d335916a7ffe77768954d7b91d4fad8902473a6b1c3dcdc9c7b63054f56f46d",
+      "originalMedia": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1801383,
+      "sha256": "0d335916a7ffe77768954d7b91d4fad8902473a6b1c3dcdc9c7b63054f56f46d",
+      "media": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/floating-cities.mp3",
+      "sourceBytes": 1801388,
+      "sourceSha256": "dd69e2e555268a363e63d4ef58d8b0e1a79355965198152d5d4207c91efb1716",
+      "originalMedia": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1801388,
+      "sha256": "dd69e2e555268a363e63d4ef58d8b0e1a79355965198152d5d4207c91efb1716",
+      "media": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/fluffing-a-duck.mp3",
+      "sourceBytes": 805131,
+      "sourceSha256": "e2ae015c459c2fd610d2a56e42f47ec3222647f94bc8fabada61c6499d8c918b",
+      "originalMedia": {
+        "duration": 67.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "48000",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 805131,
+      "sha256": "e2ae015c459c2fd610d2a56e42f47ec3222647f94bc8fabada61c6499d8c918b",
+      "media": {
+        "duration": 67.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "48000",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/folk-round.mp3",
+      "sourceBytes": 1997939,
+      "sourceSha256": "ee2d9ba5806b6060fea24b2fc7e604647e9885b64a3799d6f4ed098ae0d2c1c8",
+      "originalMedia": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          },
+          {
+            "codec_type": "video",
+            "codec_name": "png",
+            "channels": null,
+            "sample_rate": null,
+            "r_frame_rate": "90000/1"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1997939,
+      "sha256": "ee2d9ba5806b6060fea24b2fc7e604647e9885b64a3799d6f4ed098ae0d2c1c8",
+      "media": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          },
+          {
+            "codec_type": "video",
+            "codec_name": "png",
+            "channels": null,
+            "sample_rate": null,
+            "r_frame_rate": "90000/1"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/frost-waltz.mp3",
+      "sourceBytes": 1746979,
+      "sourceSha256": "d05814a6d045be25dade327e4a9086b9632721a4a395016d64a8997ccc71c321",
+      "originalMedia": {
+        "duration": 134.971,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          },
+          {
+            "codec_type": "video",
+            "codec_name": "png",
+            "channels": null,
+            "sample_rate": null,
+            "r_frame_rate": "90000/1"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1746979,
+      "sha256": "d05814a6d045be25dade327e4a9086b9632721a4a395016d64a8997ccc71c321",
+      "media": {
+        "duration": 134.971,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          },
+          {
+            "codec_type": "video",
+            "codec_name": "png",
+            "channels": null,
+            "sample_rate": null,
+            "r_frame_rate": "90000/1"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/ghost-story.mp3",
+      "sourceBytes": 1801356,
+      "sourceSha256": "130143455f91fbba6126bf0b4105fa0105945114be1e3563c41007b3d0236686",
+      "originalMedia": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1801356,
+      "sha256": "130143455f91fbba6126bf0b4105fa0105945114be1e3563c41007b3d0236686",
+      "media": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/heroic-age.mp3",
+      "sourceBytes": 1165309,
+      "sourceSha256": "6e8cc9889d44c6c60fa171f7576716c7e3232478388e05c18f13a23bcd8c10f9",
+      "originalMedia": {
+        "duration": 97.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1165309,
+      "sha256": "6e8cc9889d44c6c60fa171f7576716c7e3232478388e05c18f13a23bcd8c10f9",
+      "media": {
+        "duration": 97.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/inspired.mp3",
+      "sourceBytes": 1801410,
+      "sourceSha256": "f222fe23d6076fc5d6f42a56428650b297b859f63ced9a7c9093c39fdb21f46a",
+      "originalMedia": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1801410,
+      "sha256": "f222fe23d6076fc5d6f42a56428650b297b859f63ced9a7c9093c39fdb21f46a",
+      "media": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/lasting-hope.mp3",
+      "sourceBytes": 1843416,
+      "sourceSha256": "1651f210ff1ae87cf07c1cac99aa4e628446e4d893af83e4a676350e29fb3d13",
+      "originalMedia": {
+        "duration": 143.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "48000",
+            "r_frame_rate": "0/0"
+          },
+          {
+            "codec_type": "video",
+            "codec_name": "png",
+            "channels": null,
+            "sample_rate": null,
+            "r_frame_rate": "90000/1"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1843416,
+      "sha256": "1651f210ff1ae87cf07c1cac99aa4e628446e4d893af83e4a676350e29fb3d13",
+      "media": {
+        "duration": 143.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "48000",
+            "r_frame_rate": "0/0"
+          },
+          {
+            "codec_type": "video",
+            "codec_name": "png",
+            "channels": null,
+            "sample_rate": null,
+            "r_frame_rate": "90000/1"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/life-of-riley.mp3",
+      "sourceBytes": 1801353,
+      "sourceSha256": "a98bf3205b6d11d49c6cd39872456d51cc91747837361969965f7bcaf96fe2ff",
+      "originalMedia": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1801353,
+      "sha256": "a98bf3205b6d11d49c6cd39872456d51cc91747837361969965f7bcaf96fe2ff",
+      "media": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/lightless-dawn.mp3",
+      "sourceBytes": 1801344,
+      "sourceSha256": "3cd492ce27ed7e37fdd49bdf001b09abb9a31eee708d0fb628da0463efd657d6",
+      "originalMedia": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1801344,
+      "sha256": "3cd492ce27ed7e37fdd49bdf001b09abb9a31eee708d0fb628da0463efd657d6",
+      "media": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/local-forecast-slower.mp3",
+      "sourceBytes": 1801355,
+      "sourceSha256": "a687b816b0b58d417a52a829be1da4decff2de6dfdde1a15c9b675c7508c5a5d",
+      "originalMedia": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1801355,
+      "sha256": "a687b816b0b58d417a52a829be1da4decff2de6dfdde1a15c9b675c7508c5a5d",
+      "media": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/long-note-one.mp3",
+      "sourceBytes": 1932850,
+      "sourceSha256": "1df8cb023107795440c87bff02627bade56bd3192e6106ba711ee7429d194418",
+      "originalMedia": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          },
+          {
+            "codec_type": "video",
+            "codec_name": "png",
+            "channels": null,
+            "sample_rate": null,
+            "r_frame_rate": "90000/1"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1932850,
+      "sha256": "1df8cb023107795440c87bff02627bade56bd3192e6106ba711ee7429d194418",
+      "media": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          },
+          {
+            "codec_type": "video",
+            "codec_name": "png",
+            "channels": null,
+            "sample_rate": null,
+            "r_frame_rate": "90000/1"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/lord-of-the-land.mp3",
+      "sourceBytes": 1801424,
+      "sourceSha256": "56d2cb118384607450362dbabe94abc849aa0604df06a22a1b00c1dae6cbfcb3",
+      "originalMedia": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1801424,
+      "sha256": "56d2cb118384607450362dbabe94abc849aa0604df06a22a1b00c1dae6cbfcb3",
+      "media": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/master-of-the-feast.mp3",
+      "sourceBytes": 1801427,
+      "sourceSha256": "df76c7b24f1ea93dc413d7c8291a9ff7f80fc6cbd7d429cd814dded1732520c2",
+      "originalMedia": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1801427,
+      "sha256": "df76c7b24f1ea93dc413d7c8291a9ff7f80fc6cbd7d429cd814dded1732520c2",
+      "media": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/pamgaea.mp3",
+      "sourceBytes": 1801374,
+      "sourceSha256": "0a49597dd392c467fd279ad32162f8267a1d519b1380f72b31412c69e9db0096",
+      "originalMedia": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1801374,
+      "sha256": "0a49597dd392c467fd279ad32162f8267a1d519b1380f72b31412c69e9db0096",
+      "media": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/peaceful-desolation.mp3",
+      "sourceBytes": 1093237,
+      "sourceSha256": "6a9a56273c8262abcab5201e9a93c67ab322f3695af17ea42f4e157179764a48",
+      "originalMedia": {
+        "duration": 91.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1093237,
+      "sha256": "6a9a56273c8262abcab5201e9a93c67ab322f3695af17ea42f4e157179764a48",
+      "media": {
+        "duration": 91.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/reawakening.mp3",
+      "sourceBytes": 1801378,
+      "sourceSha256": "30f7c51071c25c037491560909d97fb38004a8e1df6ee6dd82d7e5bdbea85341",
+      "originalMedia": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1801378,
+      "sha256": "30f7c51071c25c037491560909d97fb38004a8e1df6ee6dd82d7e5bdbea85341",
+      "media": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/rites.mp3",
+      "sourceBytes": 1513043,
+      "sourceSha256": "3639157730e45c1c8bff1d6e67c10ab79fd5a614374094514cc8d29dc451c617",
+      "originalMedia": {
+        "duration": 126.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "48000",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1513043,
+      "sha256": "3639157730e45c1c8bff1d6e67c10ab79fd5a614374094514cc8d29dc451c617",
+      "media": {
+        "duration": 126.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "48000",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/scheming-weasel-faster.mp3",
+      "sourceBytes": 1195815,
+      "sourceSha256": "247af58e08f3c572d908563cbd42fdcd59ffc8c16420d3ebe2c86f84bd9efcda",
+      "originalMedia": {
+        "duration": 89.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          },
+          {
+            "codec_type": "video",
+            "codec_name": "png",
+            "channels": null,
+            "sample_rate": null,
+            "r_frame_rate": "90000/1"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1195815,
+      "sha256": "247af58e08f3c572d908563cbd42fdcd59ffc8c16420d3ebe2c86f84bd9efcda",
+      "media": {
+        "duration": 89.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          },
+          {
+            "codec_type": "video",
+            "codec_name": "png",
+            "channels": null,
+            "sample_rate": null,
+            "r_frame_rate": "90000/1"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/slow-burn.mp3",
+      "sourceBytes": 2040417,
+      "sourceSha256": "e04120c4091d0ee0a5e12b6c6eacf1b5890286b4899098ec00cecebd5b6be29d",
+      "originalMedia": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          },
+          {
+            "codec_type": "video",
+            "codec_name": "png",
+            "channels": null,
+            "sample_rate": null,
+            "r_frame_rate": "90000/1"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 2040417,
+      "sha256": "e04120c4091d0ee0a5e12b6c6eacf1b5890286b4899098ec00cecebd5b6be29d",
+      "media": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          },
+          {
+            "codec_type": "video",
+            "codec_name": "png",
+            "channels": null,
+            "sample_rate": null,
+            "r_frame_rate": "90000/1"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/sneaky-snitch.mp3",
+      "sourceBytes": 1632380,
+      "sourceSha256": "6d83d1350db0328b7286c05b81c94551eb05f1dfff4b01320226ba08de4f39df",
+      "originalMedia": {
+        "duration": 135.92,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1632380,
+      "sha256": "6d83d1350db0328b7286c05b81c94551eb05f1dfff4b01320226ba08de4f39df",
+      "media": {
+        "duration": 135.92,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/somewhere-sunny.mp3",
+      "sourceBytes": 913360,
+      "sourceSha256": "50dab762808d591bf4b8f8be40086b80977cba579a6236b3d9f3c3796b65fd15",
+      "originalMedia": {
+        "duration": 59.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          },
+          {
+            "codec_type": "video",
+            "codec_name": "png",
+            "channels": null,
+            "sample_rate": null,
+            "r_frame_rate": "90000/1"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 913360,
+      "sha256": "50dab762808d591bf4b8f8be40086b80977cba579a6236b3d9f3c3796b65fd15",
+      "media": {
+        "duration": 59.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          },
+          {
+            "codec_type": "video",
+            "codec_name": "png",
+            "channels": null,
+            "sample_rate": null,
+            "r_frame_rate": "90000/1"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/suonatore-di-liuto.mp3",
+      "sourceBytes": 1729327,
+      "sourceSha256": "586d0d4c7cc99b23a14653daca496b488f43f6c4b9ef02aea72cab641f0bf005",
+      "originalMedia": {
+        "duration": 144.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1729327,
+      "sha256": "586d0d4c7cc99b23a14653daca496b488f43f6c4b9ef02aea72cab641f0bf005",
+      "media": {
+        "duration": 144.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/thinking-music.mp3",
+      "sourceBytes": 1801399,
+      "sourceSha256": "cda4a2c1c6eb8de2818b94b3a1a114a9d41234ec3af33fe881355989dabecc05",
+      "originalMedia": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1801399,
+      "sha256": "cda4a2c1c6eb8de2818b94b3a1a114a9d41234ec3af33fe881355989dabecc05",
+      "media": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/village-consort.mp3",
+      "sourceBytes": 1801403,
+      "sourceSha256": "2fbb71b0280995e1b618bf77998abf355eae6b45b5d015b2a675c51bce8a0eb5",
+      "originalMedia": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1801403,
+      "sha256": "2fbb71b0280995e1b618bf77998abf355eae6b45b5d015b2a675c51bce8a0eb5",
+      "media": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/wallpaper.mp3",
+      "sourceBytes": 1801347,
+      "sourceSha256": "b5ea48a482a8aefdd899f06539761f088214676570186a82b2f82b6416ef6bf8",
+      "originalMedia": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1801347,
+      "sha256": "b5ea48a482a8aefdd899f06539761f088214676570186a82b2f82b6416ef6bf8",
+      "media": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/bgm-fg/wholesome.mp3",
+      "sourceBytes": 1801361,
+      "sourceSha256": "e0c011c1985f13a378b5585d7b4625aaa7c825d183d09a673a01f12e81f25be8",
+      "originalMedia": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 1801361,
+      "sha256": "e0c011c1985f13a378b5585d7b4625aaa7c825d183d09a673a01f12e81f25be8",
+      "media": {
+        "duration": 150.0,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 2,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/key-1.mp3",
+      "sourceBytes": 2239,
+      "sourceSha256": "7625a8989e52bbdc5c83b5e79841b8064c9bf66c5795844500cad81bcd9507bd",
+      "originalMedia": {
+        "duration": 0.12,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 1,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 2239,
+      "sha256": "7625a8989e52bbdc5c83b5e79841b8064c9bf66c5795844500cad81bcd9507bd",
+      "media": {
+        "duration": 0.12,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 1,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "public/quiz/sounds/key-2.mp3",
+      "sourceBytes": 2239,
+      "sourceSha256": "db65750db4d3631c3c3d88c06261935a3d58c04fc2acb45c6e6e14970e32b5e7",
+      "originalMedia": {
+        "duration": 0.12,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 1,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      },
+      "encoding": "already-optimized-copy",
+      "bytes": 2239,
+      "sha256": "db65750db4d3631c3c3d88c06261935a3d58c04fc2acb45c6e6e14970e32b5e7",
+      "media": {
+        "duration": 0.12,
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "mp3",
+            "channels": 1,
+            "sample_rate": "44100",
+            "r_frame_rate": "0/0"
+          }
+        ]
+      }
     }
   ]
 }
